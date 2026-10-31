@@ -1,0 +1,13 @@
+{
+  "name": "vaporware-detector",
+  "owner": {
+    "name": "yangben2019"
+  },
+  "plugins": [
+    {
+      "name": "vaporware-detector",
+      "source": "./",
+      "description": "Scan a plan, deck, or spec for buzzwords, unsourced claims, vanity metrics, and missing failure cases — then score its credibility."
+    }
+  ]
+}

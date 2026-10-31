@@ -1,0 +1,8 @@
+{
+  "name": "vaporware-detector",
+  "description": "Scan a plan, deck, or spec for buzzwords, unsourced claims, vanity metrics, and missing failure cases — then score its credibility.",
+  "author": {
+    "name": "yangben2019"
+  },
+  "license": "MIT"
+}
