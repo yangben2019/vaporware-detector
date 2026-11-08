@@ -1,6 +1,6 @@
 ---
 name: vaporware-detector
-description: Scan a business plan, product proposal, funding deck, requirements document, or any impressive-sounding text for vapor — buzzwords, unsourced adjectives, vanity metrics, undefined core terms, and missing failure cases — then give a credibility score and a concrete rewrite. Use when the user wants 反画饼, wants to check whether a plan is real, asks if a proposal is full of hot air, wants a hype audit before signing off, mentions 商业计划书, 需求文档, 融资 PPT, or says a document "sounds impressive but says nothing".
+description: Scan a business plan, product proposal, funding deck, requirements document, or any impressive-sounding text for vapor — buzzwords, unsourced adjectives, vanity metrics, undefined core terms, and missing failure cases — then give a credibility score and a concrete rewrite. Use when the user wants to check whether a plan is real, asks if a proposal is full of hot air, wants a hype audit before signing off, or says a document "sounds impressive but says nothing".
 ---
 
 # Vaporware Detector 反画饼检测器
