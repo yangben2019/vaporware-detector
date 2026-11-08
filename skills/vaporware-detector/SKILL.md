@@ -9,6 +9,12 @@ description: Scan a business plan, product proposal, funding deck, requirements 
 
 The output is not a roast. It is a translation layer: every sentence that cannot be checked gets flagged, and every flagged sentence gets a rewrite that could be checked.
 
+## 语言 Language
+
+用用户提问的语言写报告。**引用的原文一律保持原样**，不翻译——概括会被当成误读。改写建议跟随文件的原始语言：审中文文档就给中文改写，审英文文档就给英文改写。
+
+Write the report in the user's language. Quote source text verbatim, never translated — a paraphrase reads as misrepresentation. Suggested rewrites follow the document's own language.
+
 ## 五个检测器
 
 按顺序跑。每个都要引用原文，不要概括。
