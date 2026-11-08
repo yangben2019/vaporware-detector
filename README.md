@@ -1,4 +1,4 @@
-# Vaporware Detector 反画饼检测器
+# Vaporware Detector
 
 [![skills.sh](https://skills.sh/b/yangben2019/vaporware-detector)](https://skills.sh/yangben2019/vaporware-detector)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -15,10 +15,10 @@ Not a roast. A translation layer: every sentence that cannot be checked gets fla
 
 | Detector | Example |
 |---|---|
-| **Buzzword density** | 「打造全链路闭环生态」/ "seamless, world-class, end-to-end solution" |
-| **Unattributed claims** | 「市场反响热烈」 — how many people, when, saying what? |
-| **Vanity metrics** | 注册用户数 instead of 次周留存；downloads instead of DAU |
-| **Undefined terms** | 「核心竞争力是算法」 — which algorithm, and why can't others copy it? |
+| **Buzzword density** | "a full-stack, closed-loop ecosystem" / "seamless, world-class, end-to-end solution" |
+| **Unattributed claims** | "the market responded enthusiastically" — how many people, when, saying what? |
+| **Vanity metrics** | registrations instead of week-two retention; downloads instead of DAU |
+| **Undefined terms** | "our moat is the algorithm" — which algorithm, and why can't others copy it? |
 | **Missing negative space** | No risks, no failure conditions, no "we stop if X is false" |
 
 Scored 0–100 across five dimensions.
@@ -52,7 +52,7 @@ cp -r /tmp/vd/skills/vaporware-detector ~/.claude/skills/
 ## Usage
 
 ```text
-帮我看看这份融资 PPT 到底说了什么，有没有画饼。
+What does this funding deck actually say? Audit it before I forward it.
 ```
 
 ```text
@@ -60,7 +60,7 @@ Is this proposal real? Audit it for hype before I sign off.
 ```
 
 ```text
-这份需求文档里哪些论断是没法验证的？
+Which claims in this requirements doc cannot be verified?
 ```
 
 The skill quotes the original text for every finding — it will not paraphrase your document, because paraphrase reads as misrepresentation.
